@@ -26,4 +26,4 @@ print("H")
 # D G H
 
 # Quais são as letras mostradas no console quando o programa acima é executado e a variável number tem o valor de -6?
-# G H
+# D G H
