@@ -14,8 +14,9 @@ elif id_cargo == 103:
     cargo = "Técnico"
     salario_aumentado = salario * 1.3
 else:
-    print("Código inválido")
-    exit()
+    cargo = "Outro Cargo"
+    salario_aumentado = salario * 1.4
+
 
 diferenca_salario = salario_aumentado - salario
 
@@ -40,7 +41,7 @@ print(f"A diferença salarial é de R${diferenca_salario:.2f}")
 
 # Exemplo 3
 
-# O cargo é Gerente
-# O salário é de R$11390.00
-# O salário com aumento é de R$12529.00
-# A diferença salarial é de R$1139.00
+# O cargo é Outro Cargo
+# O salário é de R$5000.00
+# O salário com aumento é de R$7000.00
+# A diferença salarial é de R$2000.00
